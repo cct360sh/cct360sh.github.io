@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+#home .jumbotron {
+	height: 100vh;
+ 	position: relative;
+  	overflow: hidden;
+  	background-color:black;
+	margin-bottom: 0px;
+}
+#home .jumbotron video {
+	  position: absolute;
+	  z-index: 1;
+	  top: 0;
+	  width:100%;
+	  height:100%;
+	  /*  object-fit is not supported on IE  */
+	  object-fit: cover;
+	  opacity:1.0;
+}
+#home .jumbotron .container {
+	  z-index: 2;
+	  position: relative;
+}
+
+/* Code inspired from https://codepen.io/JacobLett/pen/LmWvLZ */
+
+/* Code inspired from https://stackoverflow.com/questions/31703153/bootstrap-jumbotron-full-width-and-height-of-window-with-background-image */
+
+#blog .jumbotron {
+	background-image: url("../img/blog-banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Image from http://oceanair.net/solutions/blog-banner-2/ */
+
+#gallery .jumbotron {
+	background-image: url("../img/gallery-banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Image from https://summerhillsurgery.com/travel-clinic/travel-banner/ */
+
+#portfolio .jumbotron {
+	background-image: url("../img/portfolio-banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Image from http://branddesignz.com/portfolio01/ */
+
+.carousel-caption {
+	background-color: black;
+	opacity: 0.75;
+}
